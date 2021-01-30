@@ -7,7 +7,7 @@ def home():
    return "Default Home Function Return"
 
 @app.route('/second', methods = ['GET'])
-def home():    
+def home2():    
    return "Second Function Return"
 
 app.run(debug=True)
