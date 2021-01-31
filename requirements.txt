@@ -1,2 +1,6 @@
 pip
+Jinja2
+click
+itsdangerous
+Werkzeug
 Flask
