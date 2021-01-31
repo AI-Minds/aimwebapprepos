@@ -6,4 +6,3 @@ def home():
 @app.route('/second', methods = ['GET'])
 def home2():
    return "Second Function Return"
-app.run()
