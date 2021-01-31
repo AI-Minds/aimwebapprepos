@@ -1,6 +1,6 @@
 import flask
 app = flask.Flask(__name__)
-@app.route('/', methods = ['GET'])
+@app.route('/')
 def home():
    return "Default Home Function Return"
 @app.route('/second', methods = ['GET'])
